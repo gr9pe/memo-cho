@@ -63,7 +63,7 @@ function App() {
           <textarea value={content} onChange={handleContentChange} />
         </label>
         <br />
-        <button type="submit">Add Note</button>
+        <button type="submit">Add</button>
       </form>
       <ul>
         {notes.map((note) => (
